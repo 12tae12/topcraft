@@ -1,0 +1,10 @@
+{
+  "name": "topcraft",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "wrangler pages deploy . --project-name=topcraft"
+  },
+  "devDependencies": {
+    "wrangler": "^4.24.3"
+  }
+}
