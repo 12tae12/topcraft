@@ -5,6 +5,7 @@
     "deploy": "wrangler pages deploy . --project-name=topcraft"
   },
   "devDependencies": {
+    "@cloudflare/wrangler": "^1.23.0",
     "wrangler": "^4.24.3"
   }
 }

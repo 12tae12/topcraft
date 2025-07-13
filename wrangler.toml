@@ -2,5 +2,14 @@ name = "topcraft"
 main = "TopCraft.html"
 compatibility_date = "2024-07-14"
 
-[pages]
+[site]
 bucket = "."
+entry-point = "."
+
+[[rules]]
+globs = ["**/*.wasm"]
+type = "CompiledWasm"
+
+[[rules]]
+globs = ["**/*.pck"]
+type = "application/octet-stream"
